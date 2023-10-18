@@ -10,6 +10,18 @@ variable "instance_description" {
   default     = ""
 }
 
+variable "inbound_calls_enabled" {
+  description = "The inbound_calls_enabled"
+  type        = bool
+  default     = true
+}
+
+variable "outbound_calls_enabled" {
+  description = "The outbound_calls_enabled"
+  type        = bool
+  default     = true
+}
+
 variable "quick_connect_name" {
   description = "quick_connect_name"
   type        = string
