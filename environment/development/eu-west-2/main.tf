@@ -50,8 +50,10 @@ module "metadata_validator" {
   routing_profile_description  = "Description"
   contact_flow_id              = "YOUR_CONTACT_FLOW_ID_HERE" # Replace with your actual contact flow ID
   queue_id                     = "YOUR_QUEUE_ID_HERE" # Replace with your actual queue ID
+  inbound_calls_enabled        = true
+  outbound_calls_enabled       = true
   username                     = "Enter Username"
-  phone_type                   = "SOFT_PHONE"
+  phone_type                   = "SOFT_PHONE
   security_profile_ids         = [
     "YOUR_SECURITY_PROFILE_ID_HERE", # Replace with your actual security profile ID
   ]
